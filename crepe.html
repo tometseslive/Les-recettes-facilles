@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </symbol>
+        </svg>
+        <script src="script.js" type="text/javascript" defer></script>
+        <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" href="css.css" type="text/css">
+        <link rel="icon" type="image/png" sizes="64x64" href="ico-crepe.png">
+        <title>Crêpe de la chandeleur😊</title>
+    </head>
+    <header>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" id="aa_notice">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+            <strong>Bienvenue!</strong> Ce site est en accès anticipé, ce qui signifie que certaines données peuvent être incomplètes ou incorrectes.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="hide_beta();"></button>
+        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#recette">La recette</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Les-ingredients">Les ingrédients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#La-preparation">La préparation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Support</a>
+            </li>
+        </ul>
+    </header>
+    <body>
+        <h1 id="recette">Recette des crêpes</h1>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <img src="https://img-3.journaldesfemmes.fr/S2-1VC5_7nJvGnmUb57ugtRBycg=/1500x/smart/71843a2c08224e46b32bd117fb1ec8cc/ccmcms-jdf/22095392.jpg" class="card-img-top">
+        </a>
+        <div class="card-body">
+            <h3 class="card-title" id="Les-ingredients">Les ingrédiens</h3>
+            <p class="card-text">
+                • 300 g de farine <br>
+                • 3 oeufs<br>
+                • 2 à 3 cuil. à soupe d'huile ou du beure fondu<br>
+                • 700 ml de lait entier<br>
+                • 3 cuil. à soupe de sucre<br>
+                • 1/2 cuil. à vanille en poudre ou 8 g de sucre vanillé<br>
+                • 1/4 cuil. à café de sel<br>
+                • 5 cl de fleur d'oranger<br>
+            </p>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title" id="La-preparation">Préparation</h3>
+            <p class="card-text">
+                Dans un grand saladier, mettre tous les ingrédients à savoir; la farine, les oeufs, le lait, l’huile,<br/>
+                le sel et l’eau de fleur d’oranger puis à l’aide d’un mixeur plongeant mixer le tout <br/>
+                (vous pouvez faire cette étape dans un blender ou même à la main à l’aide d’un fouet).
+            </p>
+            <p>
+                Dans la crêpière chaude, passer un papier absorbant huilé puis verser la pâte à crêpe à l’aide d’une louche, <br/>
+                faire répartir la pâte puis cuire 1 à 2 minutes, détacher les bords à l’aide d’une spatule puis retourner la <br/>
+                crêpe sur l'autre face pour cuire.
+            </p>
+            <p>
+                Disposer la crêpre cuite dans une assiète puis la couvrir à l'aide d'un torchon propre, d'une cloche en verre <br/>
+                ou d'une autre assiette afin que les bords ne devient pas secs à l'air libre.
+            </p>
+            <p>
+                Continuer ansi jusqu'a épuisement de la pâte à crêpe.
+            </p>
+            <p>
+                Servir les crêpes avec la garniture de votre choix pâte à tartiner au chocolat noisette, miel, confiture, sucre ...
+            </p>
+        </div>
+    </body>
+    <footer class="footer" id="footer">
+        <p></p>
+    </footer>
+</html>

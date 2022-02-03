@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://www.lachouette-gourmande.fr/images/fond-de-site.webp");
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+.card-body img{
+    opacity: 50%;
+}
+
+.card-img-top{
+    border-radius: 30px;
+    height: 50%;
+    width: 50%;
+}
+
+h1 {
+    color: #8081E8;
+    text-align: center;
+}
